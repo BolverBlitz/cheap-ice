@@ -42,6 +42,7 @@ class IngressIceReplica {
         await this.page.evaluate(() => {
             const selectors = [
                 '#comm',
+                '#filters_container',
                 '#player_stats',
                 '#game_stats',
                 '#geotools',
