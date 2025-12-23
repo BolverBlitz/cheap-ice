@@ -126,8 +126,10 @@ class IngressIceReplica {
                     if (!element) {
                         throw new Error('Element not found for screenshot.');
                     }
+                    // Generate ISO timestamp
+                    const timestamp = new Date().toISOString().replace(/:/g, '-');
 
-                    const screenshotPath = `${this.screenshotPath}-${counter}.png`;
+                    const screenshotPath = `${this.screenshotPath}-${timestamp}.png`;
                     const imageBuffer = await element.screenshot({
                         type: 'png',
                         clip: {
