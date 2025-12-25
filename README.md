@@ -12,6 +12,7 @@ npm install
 3. ** Optional: Create a `.env` file** in the root directory to set environment variables (if needed).
 ```txt
 SCREENSHOT_DIR=./screenshots
+VIDEO_FPS=30 # Output Video FPS
 ```
 
 ## Usage
@@ -20,7 +21,6 @@ SCREENSHOT_DIR=./screenshots
 
 ```bash
 node index.js
-
 ```
 
 Follow the on-screen wizard to configure:
@@ -45,7 +45,8 @@ Settings are auto-saved to `project.json`.
 
 ## Usage Recall (Work in Progress)
 Did you forget to run the recorder while playing? No worries! Use this script to simulate past gameplay.  
-THE SIMULATION IS VERY BASIC AND MAY NOT ACCURATELY REFLECT ACTUAL GAMEPLAY!
+THE SIMULATION IS VERY BASIC AND MAY NOT ACCURATELY REFLECT ACTUAL GAMEPLAY!  
+
 **Start the tool:**
 
 ```bash
