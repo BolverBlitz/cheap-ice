@@ -43,12 +43,12 @@ Settings are auto-saved to `project.json`.
 * To reset, select **"No"** when asked to keep settings on startup.
 * To edit specific values, select the corresponding number in the menu.
 
-## Usage History (Work in Progress)
-Did you forget to run the recorder while playing? No worries! Use the `index_history.js` script to simulate past gameplay.  
+## Usage Recall (Work in Progress)
+Did you forget to run the recorder while playing? No worries! Use this script to simulate past gameplay.  
 THE SIMULATION IS VERY BASIC AND MAY NOT ACCURATELY REFLECT ACTUAL GAMEPLAY!
 **Start the tool:**
 
 ```bash
-node index_history.js
+node index_recall.js
 
 ```
