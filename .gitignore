@@ -127,3 +127,4 @@ dist
 .pnp.*
 # Ignore puppeteer downloaded data
 puppeteer-data/
+project.json
