@@ -5,6 +5,7 @@ const IngressIceReplica = require('./lib/ice.js');
 const pm = new ProjectManager(process.cwd());
 
 (async () => {
+    if(process.env.DEBUG == 'true' ) console.log("Running in DEBUG mode.");
     const config = await pm.getConfiguration();
 
     const screenshotDir = process.env.SCREENSHOT_DIR || './screenshots';
