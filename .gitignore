@@ -128,3 +128,4 @@ dist
 # Ignore puppeteer downloaded data
 puppeteer-data/
 project.json
+/screenshots
