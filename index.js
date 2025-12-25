@@ -1,6 +1,6 @@
 require('dotenv').config({ quiet: true });
 const ProjectManager = require('./lib/projectManager.js');
-const IngressIceReplica = require('./lib/ice.js');
+const { IngressIceReplica } = require('./lib/ice.js');
 const VideoGenerator = require('./lib/ffmpeg.js');
 
 const screenshotDir = process.env.SCREENSHOT_DIR || './screenshots';

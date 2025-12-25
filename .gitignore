@@ -129,3 +129,4 @@ dist
 puppeteer-data/
 project.json
 /screenshots
+output_timelapse.mp4
